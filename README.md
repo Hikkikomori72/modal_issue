@@ -3,7 +3,9 @@ When attempting to render any modal window at the same level as the Stack, it re
 
 In our case, we cannot avoid this issue since we cannot control the rendering position of built-in dialog windows like alert, confirm, and prompt, unlike writing our own modals.
 The problem only occurs on Android.
+
 Startup version: "@startupjs/ui": "^0.59.0-canary.11"
+
 Expo version: "expo": "~52.0.28"
 
 ## Get started
