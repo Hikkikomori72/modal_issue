@@ -1,4 +1,12 @@
 When attempting to render any modal window at the same level as the Stack, it results in incorrect positioning.
+
+`  return pug
+    StartupjsProvider
+      Button.btn(onPress=handlePress) Click me
+      Stack
+`
+`/app/_layout.tsx`
+
 <img width="356" alt="Screenshot 2025-01-28 at 13 32 06" src="https://github.com/user-attachments/assets/a42af1d6-0ffa-49f5-b1ea-3faf4fb58edc" />
 
 In our case, we cannot avoid this issue since we cannot control the rendering position of built-in dialog windows like alert, confirm, and prompt, unlike writing our own modals.
